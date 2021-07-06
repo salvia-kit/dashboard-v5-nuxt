@@ -1,13 +1,13 @@
 <template>
-  <Content title="Documentation" />
+  <Doc />
 </template>
 
 <script>
-import Content from '../../components/Content.vue'
+import Doc from '@/components/docs/Doc.vue'
 
 export default {
   components: {
-    Content,
+    Doc,
   },
 }
 </script>

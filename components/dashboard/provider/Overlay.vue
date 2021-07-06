@@ -3,7 +3,7 @@
   <!--  it also allows to close side navigation when you click outside-->
   <div
     :class="
-      open &&
+      state.open &&
       'bg-black fixed h-screen left-0 opacity-40 top-0 w-screen z-30 lg:bg-transparent'
     "
     @click="toggle"
@@ -13,15 +13,6 @@
 <script>
 export default {
   name: 'Overlay',
-  computed: {
-    open() {
-      return this.$store.state.dashboard.open
-    },
-  },
-  methods: {
-    toggle() {
-      this.$store.commit('dashboard/toggle')
-    },
-  },
+  inject: ['state', 'toggle'],
 }
 </script>

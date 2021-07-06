@@ -13,7 +13,7 @@
         <span
           class="mx-4 text-sm"
           :class="
-            open
+            state.open
               ? 'lg:duration-500 lg:ease-in lg:h-auto lg:opacity-100 lg:transition-all lg:w-auto'
               : 'lg:duration-700 lg:ease-out lg:invisible lg:opacity-0 lg:transition-all'
           "
@@ -28,6 +28,7 @@
 <script>
 export default {
   name: 'SidenavItem',
+  inject: ['state'],
   props: {
     to: {
       type: String,
@@ -36,11 +37,6 @@ export default {
     title: {
       type: String,
       default: '',
-    },
-  },
-  computed: {
-    open() {
-      return this.$store.state.dashboard.open
     },
   },
 }

@@ -107,10 +107,6 @@
 <script>
 export default {
   name: 'TopNavigation',
-  methods: {
-    toggle() {
-      this.$store.commit('dashboard/toggle')
-    },
-  },
+  inject: ['toggle'],
 }
 </script>

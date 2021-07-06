@@ -5,6 +5,20 @@
     "name": "Enoch Ndika"
   },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/salvia-kit/dashboard-v5-nuxt.git"
+  },
+  "keywords": [
+    "ui",
+    "components",
+    "dashboard",
+    "admin",
+    "tailwindcss",
+    "nuxt",
+    "Nuxt.js",
+    "layout"
+  ],
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
