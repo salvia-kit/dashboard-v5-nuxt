@@ -23,11 +23,12 @@ export default {
   },
   watch: {
     $route() {
-      // close sidenav when you click on a sidenav item or on route change. it's triggered when viewport is less than 1024px
+      // close sidenav when you click on a sidenav item or on route change.
       // set the html tag overflow to hidden
-      if (window.innerWidth < 1024) {
-        this.toggle()
-        document.documentElement.style.overflow = 'hidden'
+
+      document.documentElement.style.overflow = 'hidden'
+      if (this.open === true) {
+        this.open = false
       }
     },
   },
