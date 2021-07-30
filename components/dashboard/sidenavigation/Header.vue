@@ -12,17 +12,12 @@
       z-10
     "
   >
-    <img
-      src="https://res.cloudinary.com/beloved/image/upload/v1623198052/Assets/enoch_yirvxg.png"
-      width="50"
-      height="50"
-      alt="Enoch Ndika"
-    />
+    <img src="/images/2.png" width="50" height="50" alt="Enoch Ndika" />
   </div>
 </template>
 
 <script>
 export default {
   name: 'SidenavHeader',
-};
+}
 </script>

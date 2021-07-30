@@ -1,19 +1,20 @@
 # Salvia-kit Dashboard v5 Nuxt.js
 
-![Salvia-kit Dashboard v5](https://res.cloudinary.com/beloved/image/upload/v1626789444/dashboards/dashv5_szuvvc.jpg)
+![Salvia-kit Dashboard v5](https://www.salvia-kit.com/images/dashboards/dashv5.jpg)
 
 ## 📋 Documentation
+
 You can see the documentation on [http://localhost:3000/admin/documentation](http://localhost:3000/admin/documentation)
 
 ## Browser Support
 
-| Chrome | Firefox | Edge | Safari | Opera |
-|:---:|:---:|:---:|:---:|:---:|
+|                                                               Chrome                                                               |                                                               Firefox                                                                |                                                               Edge                                                                |                                                               Safari                                                                |                                                               Opera                                                                |
+| :--------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------: |
 | <img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/chrome-logo.png?raw=true" width="64" height="64"> | <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/firefox-logo.png" width="64" height="64"> | <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/edge-logo.png" width="64" height="64"> | <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/safari-logo.png" width="64" height="64"> | <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/opera-logo.png" width="64" height="64"> |
 
 ## Contribution
-If you would like to contribute on the project, fixing bugs, please follow our [Contribution guide](https://github.com/salvia-kit/dashboard-v5-nuxt/blob/main/contributing.md)
 
+If you would like to contribute on the project, fixing bugs, please follow our [Contribution guide](https://github.com/salvia-kit/dashboard-v5-nuxt/blob/main/contributing.md)
 
 ## Build Setup
 
@@ -55,7 +56,6 @@ More information about the usage of this directory in [the documentation](https:
 Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
 
 ### `pages`
 
